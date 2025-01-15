@@ -1,1 +1,1 @@
-this code reads txt-format time series and creates one set of parameters for that tiem series.
+this code reads the txt-format time series and creates one set of CSGD parameters for that time series.
