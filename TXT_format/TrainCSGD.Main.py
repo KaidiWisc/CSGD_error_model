@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # additional python functions
-from csgd_fitting_codes import fitcsgd_clim,fit_regression
+from csgd_fitting_codes import fitcsgd_clim,fit_regression,crps_regression
 from csgd_draw_prob import draw_pdf,draw_cdf,draw_scatter
 
 
@@ -84,4 +84,5 @@ draw_pdf(pars,imergobs,include_covariates=True,covobs=covobs,linear=False)
 draw_cdf(pars,imergobs,include_covariates=True,covobs=covobs,linear=False)
 
 draw_scatter(pars,imerg_ ,gtruth_ ,covariate=covs_ ,linear=False,include_covariates=True)    
-  
+
+crps=crps_regression(pars[3:8],imerg_,pars[8],gtruth_,pars[0:3],False,True, covs_,pars[9])/10000
