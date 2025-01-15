@@ -110,7 +110,7 @@ def train_CSGD(latid):
         paras[:,x1:x2,8] = np.nanmean(imerg_)  
         # paras[:,x1:x2,9] = np.nanmean(WAR_) # this is to store covariate but we do nothave here.
     
-        # visilization of error models    
+        # Visilization of error models    
         # darw the pdf/cdf of precipitation uncertainty giving satellite observation of 5 mm/hr
         draw_pdf(paras[0,x1,:],imergobs=5,include_covariates=False,covobs=False,linear=False)
 
