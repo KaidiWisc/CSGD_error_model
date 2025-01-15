@@ -1,2 +1,2 @@
-This is the NetCDF-format IMERG input for the CSGD model. Stage-IV as the Precip. ground truth is also in NetCDF format.
+This is the NetCDF-format IMERG and Stage-IV (Precip. ground truth) for the CSGD model input.
 The Output is in NetCDF format to store all CSGD parameters.
