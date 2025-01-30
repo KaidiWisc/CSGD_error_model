@@ -1,2 +1,4 @@
 This is the NetCDF-format IMERG and Stage-IV (Precip. ground truth) for the CSGD model input.
 The Output is in NetCDF format to store all CSGD parameters.
+
+There is also a DPR file sample if folks are interested in using DPR as a "space" reference.
